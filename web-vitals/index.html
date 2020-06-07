@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <script
+      defer
+      src="https://unpkg.com/web-vitals@0.2.2/dist/web-vitals.es5.umd.min.js"
+    ></script>
+    <script>
+      addEventListener("DOMContentLoaded", function () {
+        console.log("loaded");
+        webVitals.getCLS(console.log);
+        webVitals.getFID(console.log);
+        webVitals.getLCP(console.log);
+      });
+    </script>
+  </body>
+</html>
