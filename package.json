@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "chrome-launcher": "^0.13.3",
-    "lighthouse": "^6.0.0",
+    "lighthouse": "^9.6.7",
     "web-vitals": "^0.2.2"
   }
 }
